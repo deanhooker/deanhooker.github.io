@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dean Hooker</title>
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styling/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <a href="./index.html">
+            <span class="navbar-brand navbar-nav mb-0 h1 mr-auto">DEAN HOOKER</span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                </li>
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="/contact">Contact Me</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center font-weight-bold">Projects</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row border-bottom project-div">
+            <div class="col-sm-4">
+                <img src="./assets/images/studybuddy.jpg" class="image-fluid project-pic">
+            </div>
+            <div class="col-sm-8">
+                <h3>Study Buddy</h3>
+                <a href="https://tannerwwhite.github.io/study_buddy/">https://tannerwwhite.github.io/study_buddy/</a>
+                <p>Study Buddy is a study session planning app designed for students to create meetups. The app then uses API's to provide the location on Google Maps as well as a 4-day weather forecast at that location.</p>
+                <p>Data for this app is stored in Firebase. SASS was used for styling.</p>
+            </div>
+        </div>
+        <div class="row border-bottom project-div">
+            <div class="col-sm-4">
+                <img src="./assets/images/friendfinder.png" class="image-fluid project-pic">
+            </div>
+            <div class="col-sm-8">
+                <h3>Friend Finder</h3>
+                <a href="https://still-eyrie-65194.herokuapp.com/">https://still-eyrie-65194.herokuapp.com</a>
+                <p>Friend Finder is a Full-Stack "dating app" designed to match the user up to a previous user based on survey
+                    answers. The initial seed data was popular movie characters.</p>
+                <p>This app was created using Bootsrap on the front end and Express.js on the back end.</p>
+            </div>
+        </div>
+        <div class="row border-bottom project-div">
+            <div class="col-sm-4">
+                <img src="./assets/images/bamazon.png" class="image-fluid project-pic">
+            </div>
+            <div class="col-sm-8">
+                <h3>Bamazon</h3>
+                <a href="https://github.com/deanhooker/bamazon">https://github.com/deanhooker/bamazon</a>
+                <p>Bamazon is an Amazon-like CLI storefront split into two views. The customer view allows the customer to "purchase"
+                    items from the store, provided there is sufficient stock, and subracts the corresponding inventory. The
+                    manager view allows the manager to view and edit inventory.</p>
+                <p>Bamazon was created using Node.js, an SQL database and the inquirer NPM package.</p>
+            </div>
+        </div>
+        <div class="row border-bottom project-div">
+            <div class="col-sm-4">
+                <img src="./assets/images/eatdaburger.png" class="image-fluid project-pic">
+            </div>
+            <div class="col-sm-8">
+                <h3>Eat-Da-Burger</h3>
+                <a href="https://serene-eyrie-93821.herokuapp.com/">https://serene-eyrie-93821.herokuapp.com/</a>
+                <p>Eat-Da-Burger is a "burger logger" that lets the user input the name of a burger they would like and with
+                    a click, devour it and move it into a list of devoured burgers.</p>
+                <p>This app uses MySQL, Node.js, Express, Handlebars and a homemade ORM. It was created using the MVC design
+                    pattern.</p>
+            </div>
+        </div>
+
+        <div class="row border-bottom project-div">
+            <div class="col-sm-4">
+                <img src="./assets/images/ustriviagame.png" class="image-fluid project-pic">
+            </div>
+            <div class="col-sm-8">
+                <h3>U.S. History Trivia Quiz</h3>
+                <a href="https://deanhooker.github.io/TriviaGame/">https://deanhooker.github.io/TriviaGame/</a>
+                <p>This trivia game was a bit of fun created using Javascript timers and jQuery.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <span>&#169 2018 Dean Hooker</span>
+        </div>
+    </footer>
+</body>
+
+</html>
