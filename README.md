@@ -1,3 +1,3 @@
 # My personal portfolio
 
-[LINK](https://deanhooker.github.io/)
+[Portfolio](https://deanhooker.github.io/)
